@@ -11,8 +11,11 @@
   "author": "pv18 <pv9998286620@yandex.ru>",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.18.1",
+    "express-validator": "^6.14.2",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.1",
     "nodemon": "^2.0.19"
   }
 }
