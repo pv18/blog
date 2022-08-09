@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken'
 
+// Проверка на авторизацию
 export default (req, res, next) => {
     const token = (req.headers.authorization || '').replace(/Bearer\s?/, '')
 
